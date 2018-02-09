@@ -1,0 +1,68 @@
+/*
+ * Copyright (c) 2018 Jesse de Jong
+ */
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 1em;
+    background: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.parallax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.parallax h1{
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: .2em;
+    color: white;
+}
+
+.parallax:nth-of-type(1){
+    background: url(https://images.pexels.com/photos/355423/pexels-photo-355423.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background-size: cover;
+}
+
+.parallax:nth-of-type(1) h1 {
+    padding: 15rem 0;
+}
+
+.parallax:nth-of-type(2) {
+    background: url(https://images.pexels.com/photos/51387/mount-everest-himalayas-nuptse-lhotse-51387.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background-size: cover;
+}
+
+.parallax:nth-of-type(2) h1 {
+    padding: 12rem 0;
+}
+
+.parallax:nth-of-type(3) {
+    background: url(https://images.pexels.com/photos/161878/sydney-opera-house-harbor-city-sunset-161878.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background-size: cover;
+}
+
+.parallax:nth-of-type(3) h1 {
+    padding: 12rem 0;
+}
+
+.parallax:nth-of-type(4) {
+    background: url(https://images.pexels.com/photos/358482/pexels-photo-358482.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    background-size: cover;
+}
+
+.parallax:nth-of-type(4) h1 {
+    padding: 12rem 0;
+}

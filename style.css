@@ -5,6 +5,8 @@
 body, html{
     padding: 0;
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 header{
@@ -19,7 +21,7 @@ header{
 .parallax{
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 100%;
     width: 100%;
 }
 
@@ -32,8 +34,10 @@ header{
 }
 
 .parallax:nth-of-type(1){
-    background: url(https://images.pexels.com/photos/355423/pexels-photo-355423.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background: url(https://images.pexels.com/photos/207130/pexels-photo-207130.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .parallax:nth-of-type(1) h1 {
@@ -41,8 +45,10 @@ header{
 }
 
 .parallax:nth-of-type(2) {
-    background: url(https://images.pexels.com/photos/51387/mount-everest-himalayas-nuptse-lhotse-51387.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .parallax:nth-of-type(2) h1 {
@@ -50,8 +56,10 @@ header{
 }
 
 .parallax:nth-of-type(3) {
-    background: url(https://images.pexels.com/photos/161878/sydney-opera-house-harbor-city-sunset-161878.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background: url(https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .parallax:nth-of-type(3) h1 {
@@ -61,6 +69,9 @@ header{
 .parallax:nth-of-type(4) {
     background: url(https://images.pexels.com/photos/358482/pexels-photo-358482.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
     background-size: cover;
+    height: 100%;
+    width: 100%;
+
 }
 
 .parallax:nth-of-type(4) h1 {
